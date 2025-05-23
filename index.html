@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Canteen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <h1 class="logo">CampusCanteen</h1>
+      </div>
+      <div class="navbar-menu">
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#orders">My Orders</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h2>Fresh, Fast & Flavourful</h2>
+        <p>Skip the queue. Order with ease from your college canteen.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Today's Menu</h2>
+        <div class="categories">
+          <button onclick="filterMenu('All')">All</button>
+          <button onclick="filterMenu('Snacks')">Snacks</button>
+          <button onclick="filterMenu('Main Course')">Main Course</button>
+          <button onclick="filterMenu('Beverages')">Beverages</button>
+          <button onclick="filterMenu('Desserts')">Desserts</button>
+        </div>
+        <div id="menu" class="grid"></div>
+      </section>
+
+      <aside id="cart" class="cart"></aside>
+
+      <section id="orders" class="orders-section">
+        <h2 class="section-title">My Orders</h2>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 CampusCanteen. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
