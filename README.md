@@ -69,7 +69,7 @@ Please do not copy or reuse this code for commercial purposes without permission
 
 **Pree Om Priyadarshi Kamila**  
 B.Tech AIML Student, ITER, Siksha ‘O’ Anusandhan DU  
-[LinkedIn](https://www.linkedin.com/in/preeom) | [GitHub](https://github.com/preeom)
+[LinkedIn](https://www.linkedin.com/in/pree-om) | [GitHub](https://github.com/Pree-om)
 
 ---
 
